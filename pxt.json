@@ -1,0 +1,27 @@
+{
+    "name": "IR Robot Car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "OSOYOO_IR_BLACK": "github:soxos/OSOYOO_IR_BLACK_V1.5#4d5c4aefa67357022505daa64f7ebda034ba9b97",
+        "OSOYOO": "github:soxos/OSOYOO-MICRO-BIT-CAR#7e40b0f56c25c222cea543bc61ea38a6ff8861da"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
